@@ -1,0 +1,82 @@
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git config --global user.name "danidavid"
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git config --global user.email "dudeboy.aleemahmed@gmail.com"
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git status
+On branch py
+Your branch is up to date with 'origin/py'.
+
+nothing to commit, working tree clean
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ ls
+LICENSE  README.md
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ ls
+LICENSE  README.md
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git status
+On branch py
+Your branch is up to date with 'origin/py'.
+
+nothing to commit, working tree clean
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git status
+On branch py
+Your branch is up to date with 'origin/py'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        hola.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git add hola.txt
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git status
+On branch py
+Your branch is up to date with 'origin/py'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   hola.txt
+
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git commit -m "my first git bash work" hola.txt
+[py 06e34c1] my first git bash work
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hola.txt
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git push -u origin py
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 289 bytes | 144.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/danidavid/Python-Repo.git
+   de65d92..06e34c1  py -> py
+Branch 'py' set up to track remote branch 'py' from 'origin'.
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$ git status
+On branch py
+Your branch is up to date with 'origin/py'.
+
+nothing to commit, working tree clean
+
+Local_gph2bp2@DESKTOP-DE7HJAO MINGW64 ~/Aleem Ahmed/AI pdf/Python Repo (py)
+$
