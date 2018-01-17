@@ -4,20 +4,20 @@ prompt = 'what would you like to eat??'
 message =input(prompt)
 while sandwich_orders:
     if 'fajita' in message:
-        index = sandwich_orders.index('fajita')
-        sandwitch = sandwich_orders.pop(index)
+        index1 = sandwich_orders.index('fajita')
+        sandwitch = sandwich_orders.pop(index1)
         finished_sandwiches.append(sandwitch)
-        print('making ' + str(sandwitch))
+        print('making ' ,sandwitch)
         print('sandwiches made: ', finished_sandwiches)
     elif 'jalepino' in message:
-        index = sandwich_orders.index('jalepino')
-        sandwitch = sandwich_orders.pop(index)
+        index2 = sandwich_orders.index('jalepino')
+        sandwitch = sandwich_orders.pop(index2)
         finished_sandwiches.append(sandwitch)
-        print('making ' + str(sandwitch))
+        print('making ' ,sandwitch)
         print('sandwiches made: ', finished_sandwiches)
     elif 'chicken' in message:
-        index = sandwich_orders.index('chicken')
-        sandwitch = sandwich_orders.pop(index)
+        index3 = sandwich_orders.index('chicken')
+        sandwitch = sandwich_orders.pop(index3)
         finished_sandwiches.append(sandwitch)
         print('making ' ,sandwitch)
         print('sandwiches made: ', finished_sandwiches)
@@ -25,8 +25,6 @@ while sandwich_orders:
     signal += '\n if yes then request your order'
     message = input(signal)
 
-    new_sandwich_orders = sandwich_orders.copy()
-    if sandwich_orders == new_sandwich_orders:
+if message == 'quit':
         comma ='\n Here are all sandwitches that have been made: '
-        print(comma, new_sandwich_orders)
-    break
+        print(comma, finished_sandwiches)
