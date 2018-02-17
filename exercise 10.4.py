@@ -9,8 +9,7 @@ with open(file1, 'w') as file_object:
             acitve = False
             break
             
-
-"""other way of doing it is this"""
+            
 
 greeting_name = open(file1, 'r')
 lines = greeting_name.readlines()
