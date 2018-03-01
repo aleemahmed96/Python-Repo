@@ -13,8 +13,3 @@ for count in range(3):
     album_title=input("album title: ")
     signal = make_album(artist_name,album_title)
     print(signal)
-
- 
-
-    
-
