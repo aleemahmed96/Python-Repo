@@ -14,8 +14,12 @@ while (count<3):
     print("press \"q\" to quit")
     print("enter artist name")
     artist_name=input("artist name: ")
+    if artist_name=="q":
+        break
     print("enter album title")
     album_title=input("album title: ")
+    if album_title=="q":
+       break
     signal = make_album(artist_name,album_title)
     print(signal)
     count=count+1
