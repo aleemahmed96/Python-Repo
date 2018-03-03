@@ -14,7 +14,7 @@ def make_great(name):
     for name1 in name:
         print("The Great",name1.title())
 
-
+#make_great(magician_list)
         
 #making copy of the original list
 msg=[]
