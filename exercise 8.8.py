@@ -8,6 +8,7 @@ def make_album(artist_name,album_title):
 
     dictionary={"Artist name":artist_name,"Album title":album_title }
     return dictionary
+    print(dictionary)
 
 count=0
 while (count<3):
