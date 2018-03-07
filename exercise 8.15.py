@@ -10,6 +10,8 @@
 
     #import print_models
     #import print_models as pm
+    #from print_models import print_models
+    #from print_models import print_models as pm
     #from print_models import *
 #use any of them as your preference and which suit your style.
 
