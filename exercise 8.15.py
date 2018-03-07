@@ -6,10 +6,12 @@
 # if you didn't get that file in the same path as for this program.
 
 
-#three ways to use import function are as follows:
+#ways to use import function are as follows:
 
     #import print_models
     #import print_models as pm
+    #from print_models import print_models
+    #from print_models import print_models as pm
     #from print_models import *
 #use any of them as your preference and which suit your style.
 
@@ -20,3 +22,4 @@ vanilla = []
 pm.print_models(cake,vanilla)
     #cake and vanilla are callsign for the "unprinted_designs" and "completed_models" respectively.
 pm.show_completed_models(vanilla)
+
