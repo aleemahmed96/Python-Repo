@@ -6,7 +6,7 @@
 # if you didn't get that file in the same path as for this program.
 
 
-#three ways to use import function are as follows:
+#ways to use import function are as follows:
 
     #import print_models
     #import print_models as pm
