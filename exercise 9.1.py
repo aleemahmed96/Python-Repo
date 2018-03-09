@@ -19,7 +19,6 @@ class Restaurant():
         print(self.restaurant_name.title() + " Restaurant is open.")
 
 restaurant_obj = Restaurant('Chinatown','Chinese')
-restaurant_obj.__init__
 restaurant_obj.describe_restaurant()
 restaurant_obj.open_restaurant()
 
