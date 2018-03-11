@@ -18,8 +18,8 @@ class User():
     def greet_user(self):
         print("\nHello " + self.firstname + "!")
 
-    def increment_login_attempts(self,increment):
-        self.login_attempts += increment
+    def increment_login_attempts(self):
+        self.login_attempts += 1
         print("You have attempted " + str(self.login_attempts) + " login attempts.")
 
     def reset_login_attempts(self):
@@ -27,9 +27,9 @@ class User():
         print("The Login attempt has been reset to " + str(self.login_attempts) + ".")
 
 obj = User("dani","david","Male","21","25 feb 2018")
-obj.increment_login_attempts(25)
-obj.increment_login_attempts(27)
-obj.increment_login_attempts(30)
+obj.increment_login_attempts()
+obj.increment_login_attempts()
+obj.increment_login_attempts()
 obj.reset_login_attempts()
 
 
