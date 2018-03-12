@@ -2,7 +2,7 @@ class Restaurant():
     """making class restaurant that defines restaurant name and cuisine type
     """
     def __init__(self,name,cuisine):
-        """ making method for exercise 9.4 """
+        """ making method from exercise 9.4 """
         self.restaurant_name = name
         self.cuisine_type = cuisine
         self.number_served = 0
