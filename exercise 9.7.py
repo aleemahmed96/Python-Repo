@@ -32,7 +32,7 @@ obj.increment_login_attempts()
 obj.increment_login_attempts()
 obj.reset_login_attempts()
 
-class Administrator():
+class Administrator(User):
     """making a class for exercise 9.7 from exercise 9.5
     """
     def __init__(self,privileges=["can add post","can delete post","can ban user"]):
