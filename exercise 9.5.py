@@ -31,6 +31,3 @@ obj.increment_login_attempts()
 obj.increment_login_attempts()
 obj.increment_login_attempts()
 obj.reset_login_attempts()
-
-
-        
