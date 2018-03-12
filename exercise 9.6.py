@@ -2,7 +2,7 @@ class Restaurant():
     """making class restaurant that defines restaurant name and cuisine type
     """
     def __init__(self,name,cuisine):
-        """ making method from exercise 9.4 """
+        """ making method fot exercise 9.4 """
         self.restaurant_name = name
         self.cuisine_type = cuisine
         self.number_served = 0
@@ -25,7 +25,7 @@ restaurant.increment_number_served(28)
 
 
 class IceCreamStand(Restaurant):
-    """ Making class for exercise 9.6
+    """ Making class for exercise 9.6 from exercise 9.4
     """
     def __init__(self,flavors=['choco','strawberry','vanilla','blueberry','pineapple','kishmish']):
         self.flavors = flavors
