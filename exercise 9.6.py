@@ -31,13 +31,13 @@ class IceCreamStand(Restaurant):
         self.flavors = flavors
         #used another attribute do not get confused by that. You can also use that:
         #self.flavors = '\n -'.join(flavors)
-        self.flv = '\n'.join(flavors)
+        self.flv = ',\n '.join(flavors)
     
     
     def show_flavors(self):
         """making method to show flavors
         """
-        message = "This Restaurant has  \n" + str(self.flv) 
+        message = "This Restaurant has " + str(self.flv)
         message += " flavors."
         print(message)
 
