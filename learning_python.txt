@@ -1,0 +1,6 @@
+In Python you can create lists
+In Python you can create dictionary
+In Python you can create classes
+In Python you can make games
+In Python you can make web applications
+In Python you can make scripts
