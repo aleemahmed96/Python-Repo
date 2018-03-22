@@ -1,7 +1,7 @@
 filename = "guest.txt"
 
-with open(filename,"w") as file:
-    msg = input("give your name here: \t")
-    file.writelines(msg)
+with open(filename,"a") as file:
+    msg = input("give your name here: ")
+    file.writelines("\n" + msg)
     file.close()
 
