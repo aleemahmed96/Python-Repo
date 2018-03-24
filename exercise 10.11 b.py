@@ -1,3 +1,6 @@
+import json
+
+filename ="fav_number.json"
 with open(filename, mode='r') as file:
     msg = json.load(file)
     
