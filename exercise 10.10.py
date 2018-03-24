@@ -3,7 +3,7 @@ def count_words(filename):
     try:
         file = open(filename,"r")
         contents = file.read()
-    except FileNotFoundError and UnicodeDecodeError:
+    except FileNotFoundError:
         pass
     else:
         word = contents.lower().count("the")
